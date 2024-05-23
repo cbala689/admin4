@@ -1,0 +1,160 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.main
+{   
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2023/09/biophilic-design-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+img
+{
+    height: 100px;
+    width: 300px;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    filter: brightness(50%)opacity(70%);
+}
+.logo
+{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+}
+.group1
+{
+
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 45%;
+
+}
+.A11:hover
+{
+background-color: chartreuse;
+border: solid pink;
+border-width: 20px;
+
+}
+.A22:hover
+{
+background-color: chartreuse;
+border: solid blue;
+border-width: 20px;
+}
+.A33:hover
+{
+background-color: chartreuse;
+border: solid pink;
+border-width: 20px;
+}
+.A44:hover
+{
+background-color: chartreuse;
+border: solid orangered;
+border-width: 20px;
+}
+.A55:hover
+{
+background-color: chartreuse;
+border: solid red;
+border-width: 20px;
+}
+.m1
+{
+    background-color: chartreuse;
+    margin-top: 39%;
+}
+p{
+    text-align: center;
+}
+.m2
+{
+    background-color: red;
+    color: white;
+    margin-top: 25%;
+}
+.group2
+{
+
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 45%;
+}
+.i1:hover
+{
+border: solid red;
+border-width: 20px;
+}
+.i2:hover
+{
+border: solid blue;
+border-width: 20px;
+}
+.i3:hover
+{
+border: solid orange;
+border-width: 20px;
+}
+.i4:hover
+{
+border: solid chartreuse;
+border-width: 20px;
+}
+.i5:hover
+{
+border: solid yellowgreen;
+border-width: 20px;
+}
+.p1 
+{
+    margin-top: 20%;
+}
+
